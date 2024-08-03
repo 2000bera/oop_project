@@ -8,13 +8,6 @@ public class TestProgram
   {
     Book[] books = new Book[6];
 
-    String title;
-    String author;
-    String ISBN;
-    int pages;
-    int size;
-    double weight;
-
     books[0] = new EBook("The C++ Programming Language", "Bjarne Stroustrup", "1321563841", 203178);
     books[1] = new EBook("The Grapes of Wrath", "John Steinbeck ", "167001617X", 9590);
     books[2] = new EBook("To Kill A Mockingbird", "Harper Lee", "1162420715", 3503);
